@@ -1,21 +1,16 @@
-#Offline Text-to-Speech (Zero-Install)
-A lightweight, 100% offline text-to-speech (TTS) automation tool built for Windows.
++ #Zero-Install Offline TTS
+A lightweight, native Windows script that converts text directly into .wav audio files. It runs 100% offline using the built-in Windows Speech API, requiring zero installations, downloads, or dependencies.
 
-The Problem: Most TTS tools require heavy installations, cloud connectivity, or complex Python environments.
-The Solution: This script taps directly into the native Windows Speech API (SAPI). It requires zero installations, runs instantly, and operates entirely offline for maximum privacy.
+Key Features
+Smart Clipboard: Leave the prompt empty to automatically grab and convert your most recently copied text.
 
-Features
-Smart Clipboard Integration: If you launch the script without typing anything, it automatically grabs your most recently copied text and converts it.
+Native OS Hook: Built purely in VBScript to leverage existing system resources rather than third-party engines.
 
-Zero Dependencies: Written in pure VBScript. No pip install, no downloads required.
+Clean Pipeline: Automatically generates timestamped files and safely closes data streams to prevent system lockups.
 
-Automatic File Generation: Automatically generates a uniquely timestamped .wav audio file in the same directory.
+Usage
+Download and double-click Voice.vbs.
 
-How to Use
-Download Voice.vbs.
+Type your text (or leave it blank to use your clipboard).
 
-Double-click the file to run it.
-
-Type your text, or leave it blank to auto-convert your clipboard.
-
-Open the generated .wav file in any media player.
+The script will instantly generate a .wav file in the same folder, ready to play or share.
