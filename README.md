@@ -1,4 +1,4 @@
-+ #Zero-Install Offline TTS
+++ Zero-Install Offline TTS
 A lightweight, native Windows script that converts text directly into .wav audio files. It runs 100% offline using the built-in Windows Speech API, requiring zero installations, downloads, or dependencies.
 
 Key Features
